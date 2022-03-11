@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i = 97;
+	char ch;
 
-	if (i >= 97 && i <= 122)
-		putchar(i);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	return (0);
 }
