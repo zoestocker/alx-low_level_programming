@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - print the absolute value of an integer
- * Description: _abs prints the absolute value of n.
- * @n: the integer to be printed.
- * Return: Always 0 (Success)
+ * _abs - prints the absolute value of an integer
+ * @n: the integer to be printed
+ *
+ * Return: Always n (Success)
  */
 int _abs(int n)
 {

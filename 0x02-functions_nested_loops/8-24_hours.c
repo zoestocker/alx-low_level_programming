@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints every minute for twenty-four hours
- * Description: jack_bauer prints every minute of the day
- * Return: 0
+ * jack_bauer - prints every minute for twenty-four hours
  */
 void jack_bauer(void)
 {
