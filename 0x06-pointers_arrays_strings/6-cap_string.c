@@ -18,33 +18,33 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if (s[i] == '.')
-		{
-			++i;
-			if (s[i] >= 'a' && s[i] <= 'z')
-				s[i] = s[i] - 32;
-				continue;
-		}
 		if (s[i] == '\n')
 		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
 				s[i] = s[i] - 32;
-				continue;
+			continue;
+		}
+		if (s[i] == '.')
+		{
+			++i;
+			if (s[i] >= 'a' && s[i] <= 'z')
+				s[i] = s[i] - 32;
+			continue;
 		}
 		if (s[i] == '\t')
 		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
 				s[i] = s[i] - 32;
-				continue;
+			continue;
 		}
 		if (s[i] == ' ')
 		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
 				s[i] = s[i] - 32;
-				continue;
+			continue;
 		}
 	}
 	return (s);
