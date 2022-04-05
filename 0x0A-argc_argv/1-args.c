@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -10,11 +9,13 @@
  */
 int main(int argc, char *argv[])
 {
+	int n;
 	(void)argv;
 
 	if (argc >= 0)
 	{
-		printf("%d\n", argc);
+		n = argc - 1;
+		printf("%d\n", n);
 	}
 	return (0);
 }
